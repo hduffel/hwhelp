@@ -1,0 +1,510 @@
+namespace Project_2
+{
+    partial class Form1
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.btnCalc = new System.Windows.Forms.Button();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnClear = new System.Windows.Forms.Button();
+            this.btnExit = new System.Windows.Forms.Button();
+            this.lblSaladselection = new System.Windows.Forms.Label();
+            this.lblDrinkselection = new System.Windows.Forms.Label();
+            this.lblDessertselection = new System.Windows.Forms.Label();
+            this.txtSaladprice = new System.Windows.Forms.TextBox();
+            this.txtSaladqty = new System.Windows.Forms.TextBox();
+            this.txtDrinkprice = new System.Windows.Forms.TextBox();
+            this.txtDrinkQuantity = new System.Windows.Forms.TextBox();
+            this.txtDessertsprice = new System.Windows.Forms.TextBox();
+            this.txtDessertsqty = new System.Windows.Forms.TextBox();
+            this.lblSaladprice = new System.Windows.Forms.Label();
+            this.lblSaladqty = new System.Windows.Forms.Label();
+            this.lblDrinkprice = new System.Windows.Forms.Label();
+            this.lblDrinkqty = new System.Windows.Forms.Label();
+            this.lblDessertprice = new System.Windows.Forms.Label();
+            this.lblDessertqty = new System.Windows.Forms.Label();
+            this.lblMessagelabel = new System.Windows.Forms.Label();
+            this.lblSaladslabel = new System.Windows.Forms.Label();
+            this.lblDrinkslabel = new System.Windows.Forms.Label();
+            this.lblDesssertslabel = new System.Windows.Forms.Label();
+            this.rbtnCaesarsalad = new System.Windows.Forms.RadioButton();
+            this.rbtnChickensalad = new System.Windows.Forms.RadioButton();
+            this.rbtnWater = new System.Windows.Forms.RadioButton();
+            this.rbtnJumex = new System.Windows.Forms.RadioButton();
+            this.rbtnFruitcake = new System.Windows.Forms.RadioButton();
+            this.rbtnBananabread = new System.Windows.Forms.RadioButton();
+            this.lblMenu = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // btnCalc
+            // 
+            this.btnCalc.Location = new System.Drawing.Point(500, 12);
+            this.btnCalc.Name = "btnCalc";
+            this.btnCalc.Size = new System.Drawing.Size(75, 23);
+            this.btnCalc.TabIndex = 0;
+            this.btnCalc.Text = "Calculate";
+            this.btnCalc.UseVisualStyleBackColor = true;
+            this.btnCalc.Click += new System.EventHandler(this.btnCalc_Click);
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = global::Project_2.Properties.Resources.caesar_s_salad;
+            this.pictureBox6.Location = new System.Drawing.Point(150, 97);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 6;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::Project_2.Properties.Resources.chicken_salad;
+            this.pictureBox5.Location = new System.Drawing.Point(150, 168);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 5;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::Project_2.Properties.Resources.water;
+            this.pictureBox4.Location = new System.Drawing.Point(365, 97);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 4;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::Project_2.Properties.Resources.jumex;
+            this.pictureBox3.Location = new System.Drawing.Point(365, 168);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 3;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::Project_2.Properties.Resources.banana_bread;
+            this.pictureBox2.Location = new System.Drawing.Point(604, 168);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 2;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Project_2.Properties.Resources.fruitcake;
+            this.pictureBox1.Location = new System.Drawing.Point(604, 97);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            // 
+            // btnClear
+            // 
+            this.btnClear.Location = new System.Drawing.Point(604, 12);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(75, 23);
+            this.btnClear.TabIndex = 7;
+            this.btnClear.Text = "Clear";
+            this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
+            // 
+            // btnExit
+            // 
+            this.btnExit.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.btnExit.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnExit.Location = new System.Drawing.Point(713, 12);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(75, 23);
+            this.btnExit.TabIndex = 8;
+            this.btnExit.Text = "Exit";
+            this.btnExit.UseVisualStyleBackColor = false;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
+            // 
+            // lblSaladselection
+            // 
+            this.lblSaladselection.AutoSize = true;
+            this.lblSaladselection.Location = new System.Drawing.Point(53, 328);
+            this.lblSaladselection.Name = "lblSaladselection";
+            this.lblSaladselection.Size = new System.Drawing.Size(68, 13);
+            this.lblSaladselection.TabIndex = 9;
+            this.lblSaladselection.Text = "Salads Label";
+            // 
+            // lblDrinkselection
+            // 
+            this.lblDrinkselection.AutoSize = true;
+            this.lblDrinkselection.Location = new System.Drawing.Point(276, 328);
+            this.lblDrinkselection.Name = "lblDrinkselection";
+            this.lblDrinkselection.Size = new System.Drawing.Size(66, 13);
+            this.lblDrinkselection.TabIndex = 10;
+            this.lblDrinkselection.Text = "Drinks Label";
+            // 
+            // lblDessertselection
+            // 
+            this.lblDessertselection.AutoSize = true;
+            this.lblDessertselection.Location = new System.Drawing.Point(500, 328);
+            this.lblDessertselection.Name = "lblDessertselection";
+            this.lblDessertselection.Size = new System.Drawing.Size(77, 13);
+            this.lblDessertselection.TabIndex = 11;
+            this.lblDessertselection.Text = "Desserts Label";
+            // 
+            // txtSaladprice
+            // 
+            this.txtSaladprice.Location = new System.Drawing.Point(150, 248);
+            this.txtSaladprice.Name = "txtSaladprice";
+            this.txtSaladprice.ReadOnly = true;
+            this.txtSaladprice.Size = new System.Drawing.Size(100, 20);
+            this.txtSaladprice.TabIndex = 12;
+            this.txtSaladprice.Text = "0";
+            // 
+            // txtSaladqty
+            // 
+            this.txtSaladqty.Location = new System.Drawing.Point(150, 286);
+            this.txtSaladqty.Name = "txtSaladqty";
+            this.txtSaladqty.Size = new System.Drawing.Size(100, 20);
+            this.txtSaladqty.TabIndex = 13;
+            this.txtSaladqty.Text = "0";
+            // 
+            // txtDrinkprice
+            // 
+            this.txtDrinkprice.Location = new System.Drawing.Point(365, 251);
+            this.txtDrinkprice.Name = "txtDrinkprice";
+            this.txtDrinkprice.ReadOnly = true;
+            this.txtDrinkprice.Size = new System.Drawing.Size(100, 20);
+            this.txtDrinkprice.TabIndex = 14;
+            this.txtDrinkprice.Text = "0";
+            // 
+            // txtDrinkQuantity
+            // 
+            this.txtDrinkQuantity.Location = new System.Drawing.Point(365, 289);
+            this.txtDrinkQuantity.Name = "txtDrinkQuantity";
+            this.txtDrinkQuantity.Size = new System.Drawing.Size(100, 20);
+            this.txtDrinkQuantity.TabIndex = 15;
+            this.txtDrinkQuantity.Text = "0";
+            // 
+            // txtDessertsprice
+            // 
+            this.txtDessertsprice.Location = new System.Drawing.Point(604, 255);
+            this.txtDessertsprice.Name = "txtDessertsprice";
+            this.txtDessertsprice.ReadOnly = true;
+            this.txtDessertsprice.Size = new System.Drawing.Size(100, 20);
+            this.txtDessertsprice.TabIndex = 16;
+            this.txtDessertsprice.Text = "0";
+            // 
+            // txtDessertsqty
+            // 
+            this.txtDessertsqty.Location = new System.Drawing.Point(604, 289);
+            this.txtDessertsqty.Name = "txtDessertsqty";
+            this.txtDessertsqty.Size = new System.Drawing.Size(100, 20);
+            this.txtDessertsqty.TabIndex = 17;
+            this.txtDessertsqty.Text = "0";
+            // 
+            // lblSaladprice
+            // 
+            this.lblSaladprice.AutoSize = true;
+            this.lblSaladprice.Location = new System.Drawing.Point(53, 251);
+            this.lblSaladprice.Name = "lblSaladprice";
+            this.lblSaladprice.Size = new System.Drawing.Size(61, 13);
+            this.lblSaladprice.TabIndex = 18;
+            this.lblSaladprice.Text = "Salad Price";
+            // 
+            // lblSaladqty
+            // 
+            this.lblSaladqty.AutoSize = true;
+            this.lblSaladqty.Location = new System.Drawing.Point(53, 289);
+            this.lblSaladqty.Name = "lblSaladqty";
+            this.lblSaladqty.Size = new System.Drawing.Size(76, 13);
+            this.lblSaladqty.TabIndex = 19;
+            this.lblSaladqty.Text = "Salad Quantity";
+            // 
+            // lblDrinkprice
+            // 
+            this.lblDrinkprice.AutoSize = true;
+            this.lblDrinkprice.Location = new System.Drawing.Point(276, 258);
+            this.lblDrinkprice.Name = "lblDrinkprice";
+            this.lblDrinkprice.Size = new System.Drawing.Size(59, 13);
+            this.lblDrinkprice.TabIndex = 20;
+            this.lblDrinkprice.Text = "Drink Price";
+            // 
+            // lblDrinkqty
+            // 
+            this.lblDrinkqty.AutoSize = true;
+            this.lblDrinkqty.Location = new System.Drawing.Point(276, 293);
+            this.lblDrinkqty.Name = "lblDrinkqty";
+            this.lblDrinkqty.Size = new System.Drawing.Size(74, 13);
+            this.lblDrinkqty.TabIndex = 21;
+            this.lblDrinkqty.Text = "Drink Quantity";
+            // 
+            // lblDessertprice
+            // 
+            this.lblDessertprice.AutoSize = true;
+            this.lblDessertprice.Location = new System.Drawing.Point(500, 254);
+            this.lblDessertprice.Name = "lblDessertprice";
+            this.lblDessertprice.Size = new System.Drawing.Size(70, 13);
+            this.lblDessertprice.TabIndex = 22;
+            this.lblDessertprice.Text = "Dessert Price";
+            // 
+            // lblDessertqty
+            // 
+            this.lblDessertqty.AutoSize = true;
+            this.lblDessertqty.Location = new System.Drawing.Point(500, 293);
+            this.lblDessertqty.Name = "lblDessertqty";
+            this.lblDessertqty.Size = new System.Drawing.Size(85, 13);
+            this.lblDessertqty.TabIndex = 23;
+            this.lblDessertqty.Text = "Dessert Quantity";
+            // 
+            // lblMessagelabel
+            // 
+            this.lblMessagelabel.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblMessagelabel.Location = new System.Drawing.Point(262, 374);
+            this.lblMessagelabel.Name = "lblMessagelabel";
+            this.lblMessagelabel.Size = new System.Drawing.Size(300, 58);
+            this.lblMessagelabel.TabIndex = 24;
+            this.lblMessagelabel.Text = "Message Label";
+            this.lblMessagelabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblSaladslabel
+            // 
+            this.lblSaladslabel.AutoSize = true;
+            this.lblSaladslabel.Location = new System.Drawing.Point(176, 65);
+            this.lblSaladslabel.Name = "lblSaladslabel";
+            this.lblSaladslabel.Size = new System.Drawing.Size(39, 13);
+            this.lblSaladslabel.TabIndex = 31;
+            this.lblSaladslabel.Text = "Salads";
+            // 
+            // lblDrinkslabel
+            // 
+            this.lblDrinkslabel.AutoSize = true;
+            this.lblDrinkslabel.Location = new System.Drawing.Point(392, 65);
+            this.lblDrinkslabel.Name = "lblDrinkslabel";
+            this.lblDrinkslabel.Size = new System.Drawing.Size(37, 13);
+            this.lblDrinkslabel.TabIndex = 32;
+            this.lblDrinkslabel.Text = "Drinks";
+            // 
+            // lblDesssertslabel
+            // 
+            this.lblDesssertslabel.AutoSize = true;
+            this.lblDesssertslabel.Location = new System.Drawing.Point(631, 65);
+            this.lblDesssertslabel.Name = "lblDesssertslabel";
+            this.lblDesssertslabel.Size = new System.Drawing.Size(48, 13);
+            this.lblDesssertslabel.TabIndex = 33;
+            this.lblDesssertslabel.Text = "Desserts";
+            // 
+            // rbtnCaesarsalad
+            // 
+            this.rbtnCaesarsalad.AutoSize = true;
+            this.rbtnCaesarsalad.Location = new System.Drawing.Point(29, 97);
+            this.rbtnCaesarsalad.Name = "rbtnCaesarsalad";
+            this.rbtnCaesarsalad.Size = new System.Drawing.Size(95, 17);
+            this.rbtnCaesarsalad.TabIndex = 34;
+            this.rbtnCaesarsalad.TabStop = true;
+            this.rbtnCaesarsalad.Text = "Caesar\'s Salad";
+            this.rbtnCaesarsalad.UseVisualStyleBackColor = true;
+            this.rbtnCaesarsalad.CheckedChanged += new System.EventHandler(this.rbtnCaesarsalad_CheckedChanged);
+            // 
+            // rbtnChickensalad
+            // 
+            this.rbtnChickensalad.AutoSize = true;
+            this.rbtnChickensalad.Location = new System.Drawing.Point(29, 168);
+            this.rbtnChickensalad.Name = "rbtnChickensalad";
+            this.rbtnChickensalad.Size = new System.Drawing.Size(94, 17);
+            this.rbtnChickensalad.TabIndex = 35;
+            this.rbtnChickensalad.TabStop = true;
+            this.rbtnChickensalad.Text = "Chicken Salad";
+            this.rbtnChickensalad.UseVisualStyleBackColor = true;
+            this.rbtnChickensalad.CheckedChanged += new System.EventHandler(this.rbtnChickensalad_CheckedChanged);
+            // 
+            // rbtnWater
+            // 
+            this.rbtnWater.AutoSize = true;
+            this.rbtnWater.Location = new System.Drawing.Point(265, 97);
+            this.rbtnWater.Name = "rbtnWater";
+            this.rbtnWater.Size = new System.Drawing.Size(54, 17);
+            this.rbtnWater.TabIndex = 36;
+            this.rbtnWater.TabStop = true;
+            this.rbtnWater.Text = "Water";
+            this.rbtnWater.UseVisualStyleBackColor = true;
+            this.rbtnWater.CheckedChanged += new System.EventHandler(this.rbtnWater_CheckedChanged);
+            // 
+            // rbtnJumex
+            // 
+            this.rbtnJumex.AutoSize = true;
+            this.rbtnJumex.Location = new System.Drawing.Point(269, 168);
+            this.rbtnJumex.Name = "rbtnJumex";
+            this.rbtnJumex.Size = new System.Drawing.Size(55, 17);
+            this.rbtnJumex.TabIndex = 37;
+            this.rbtnJumex.TabStop = true;
+            this.rbtnJumex.Text = "Jumex";
+            this.rbtnJumex.UseVisualStyleBackColor = true;
+            this.rbtnJumex.CheckedChanged += new System.EventHandler(this.rbtnJumex_CheckedChanged);
+            // 
+            // rbtnFruitcake
+            // 
+            this.rbtnFruitcake.AutoSize = true;
+            this.rbtnFruitcake.Location = new System.Drawing.Point(492, 97);
+            this.rbtnFruitcake.Name = "rbtnFruitcake";
+            this.rbtnFruitcake.Size = new System.Drawing.Size(73, 17);
+            this.rbtnFruitcake.TabIndex = 38;
+            this.rbtnFruitcake.TabStop = true;
+            this.rbtnFruitcake.Text = "Fruit Cake";
+            this.rbtnFruitcake.UseVisualStyleBackColor = true;
+            this.rbtnFruitcake.CheckedChanged += new System.EventHandler(this.rbtnFruitcake_CheckedChanged);
+            // 
+            // rbtnBananabread
+            // 
+            this.rbtnBananabread.AutoSize = true;
+            this.rbtnBananabread.Location = new System.Drawing.Point(492, 168);
+            this.rbtnBananabread.Name = "rbtnBananabread";
+            this.rbtnBananabread.Size = new System.Drawing.Size(93, 17);
+            this.rbtnBananabread.TabIndex = 39;
+            this.rbtnBananabread.TabStop = true;
+            this.rbtnBananabread.Text = "Banana Bread";
+            this.rbtnBananabread.UseVisualStyleBackColor = true;
+            this.rbtnBananabread.CheckedChanged += new System.EventHandler(this.rbtnBananabread_CheckedChanged);
+            // 
+            // lblMenu
+            // 
+            this.lblMenu.AutoSize = true;
+            this.lblMenu.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMenu.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lblMenu.Location = new System.Drawing.Point(3, 4);
+            this.lblMenu.Name = "lblMenu";
+            this.lblMenu.Size = new System.Drawing.Size(85, 31);
+            this.lblMenu.TabIndex = 40;
+            this.lblMenu.Text = "Menu";
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblMenu);
+            this.Controls.Add(this.rbtnBananabread);
+            this.Controls.Add(this.rbtnFruitcake);
+            this.Controls.Add(this.rbtnJumex);
+            this.Controls.Add(this.rbtnWater);
+            this.Controls.Add(this.rbtnChickensalad);
+            this.Controls.Add(this.rbtnCaesarsalad);
+            this.Controls.Add(this.lblDesssertslabel);
+            this.Controls.Add(this.lblDrinkslabel);
+            this.Controls.Add(this.lblSaladslabel);
+            this.Controls.Add(this.lblMessagelabel);
+            this.Controls.Add(this.lblDessertqty);
+            this.Controls.Add(this.lblDessertprice);
+            this.Controls.Add(this.lblDrinkqty);
+            this.Controls.Add(this.lblDrinkprice);
+            this.Controls.Add(this.lblSaladqty);
+            this.Controls.Add(this.lblSaladprice);
+            this.Controls.Add(this.txtDessertsqty);
+            this.Controls.Add(this.txtDessertsprice);
+            this.Controls.Add(this.txtDrinkQuantity);
+            this.Controls.Add(this.txtDrinkprice);
+            this.Controls.Add(this.txtSaladqty);
+            this.Controls.Add(this.txtSaladprice);
+            this.Controls.Add(this.lblDessertselection);
+            this.Controls.Add(this.lblDrinkselection);
+            this.Controls.Add(this.lblSaladselection);
+            this.Controls.Add(this.btnExit);
+            this.Controls.Add(this.btnClear);
+            this.Controls.Add(this.pictureBox6);
+            this.Controls.Add(this.pictureBox5);
+            this.Controls.Add(this.pictureBox4);
+            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.btnCalc);
+            this.Name = "Form1";
+            this.Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Button btnCalc;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.Button btnClear;
+        private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.Label lblSaladselection;
+        private System.Windows.Forms.Label lblDrinkselection;
+        private System.Windows.Forms.Label lblDessertselection;
+        private System.Windows.Forms.TextBox txtSaladprice;
+        private System.Windows.Forms.TextBox txtSaladqty;
+        private System.Windows.Forms.TextBox txtDrinkprice;
+        private System.Windows.Forms.TextBox txtDrinkQuantity;
+        private System.Windows.Forms.TextBox txtDessertsprice;
+        private System.Windows.Forms.TextBox txtDessertsqty;
+        private System.Windows.Forms.Label lblSaladprice;
+        private System.Windows.Forms.Label lblSaladqty;
+        private System.Windows.Forms.Label lblDrinkprice;
+        private System.Windows.Forms.Label lblDrinkqty;
+        private System.Windows.Forms.Label lblDessertprice;
+        private System.Windows.Forms.Label lblDessertqty;
+        private System.Windows.Forms.Label lblMessagelabel;
+        private System.Windows.Forms.Label lblSaladslabel;
+        private System.Windows.Forms.Label lblDrinkslabel;
+        private System.Windows.Forms.Label lblDesssertslabel;
+        private System.Windows.Forms.RadioButton rbtnCaesarsalad;
+        private System.Windows.Forms.RadioButton rbtnChickensalad;
+        private System.Windows.Forms.RadioButton rbtnWater;
+        private System.Windows.Forms.RadioButton rbtnJumex;
+        private System.Windows.Forms.RadioButton rbtnFruitcake;
+        private System.Windows.Forms.RadioButton rbtnBananabread;
+        private System.Windows.Forms.Label lblMenu;
+    }
+}
+
