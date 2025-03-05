@@ -1,0 +1,149 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Project_2
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            rbtnBananabread.Checked = false;
+            rbtnCaesarsalad.Checked = false;
+            rbtnChickensalad.Checked = false;
+            rbtnFruitcake.Checked = false;
+            rbtnWater.Checked = false;
+            rbtnJumex.Checked = false;
+
+            txtSaladprice.Text = "";
+            txtDrinkprice.Text = "";
+            txtDessertsprice.Text = "";
+
+            lblSaladselection.Text = "";
+            lblDrinkselection.Text = "";
+            lblDessertselection.Text = "";
+
+            lblMessagelabel.Text = "";
+        }
+
+        
+
+        private void btnCalc_Click(object sender, EventArgs e)
+        {
+            double SaladPrice = 0;
+            double DrinkPrice = 0;
+            double DessertPrice = 0;
+            int SaladQty = 0;
+            int DrinkQty = 0;
+            int DessertQty = 0;
+
+
+            //Salad
+            if (rbtnCaesarsalad.Checked == true)
+                SaladPrice = 9.95;
+
+            if (rbtnChickensalad.Checked == true)
+                SaladPrice = 12.00;
+
+            int.TryParse(txtSaladqty.Text, out SaladQty); ;
+            //Drink
+
+            if (rbtnWater.Checked == true)
+                DrinkPrice = 4.95;
+
+            if (rbtnJumex.Checked == true)
+                DrinkPrice = 3.95;
+
+            int.TryParse(txtDrinkQuantity.Text, out DrinkQty); 
+
+
+            //Dessert
+
+            if (rbtnFruitcake.Checked == true)
+                DessertPrice = 3.00;
+            if (rbtnBananabread.Checked == true)
+                DessertPrice = 6.00;
+            int.TryParse(txtDessertsqty.Text, out DessertQty);
+            //Total
+
+            double Total = (SaladQty * SaladPrice) + (DrinkPrice * DrinkQty) + (DessertPrice * DessertQty);
+            lblMessagelabel.Text = $"Total Due: {Total.ToString("C")}";
+            //finish it later
+        }
+
+        private void rbtnFruitcake_CheckedChanged(object sender, EventArgs e)
+        {
+           if (rbtnFruitcake.Checked == true)
+            {
+                txtDessertsprice.Text = "$3.00";
+                lblDessertselection.Text = "Fruit Cake";
+            }
+        }
+
+        private void rbtnBananabread_CheckedChanged(object sender, EventArgs e)
+        {
+            if(rbtnBananabread.Checked == true)
+            {
+                txtDessertsprice.Text = "$6.00";
+                lblDessertselection.Text = "Banana Bread";
+            }
+        }
+
+        private void lblMessagelabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rbtnCaesarsalad_CheckedChanged(object sender, EventArgs e)
+        {
+            if(rbtnCaesarsalad.Checked == true)
+            {
+                txtSaladprice.Text = "$9.95";
+                lblSaladselection.Text = "Caesar's Salad";
+            }
+        }
+
+        private void rbtnChickensalad_CheckedChanged(object sender, EventArgs e)
+        {
+            if(rbtnChickensalad.Checked == true)
+            {
+                txtSaladprice.Text = "$12.00";
+                lblSaladselection.Text = "Chicken Salad";
+            }
+        }
+
+        private void rbtnWater_CheckedChanged(object sender, EventArgs e)
+        {
+            if(rbtnWater.Checked == true)
+            {
+                txtDrinkprice.Text = "$4.95";
+                lblDrinkselection.Text = "Water";
+            }
+        }
+
+        private void rbtnJumex_CheckedChanged(object sender, EventArgs e)
+        {
+            if(rbtnJumex.Checked == true)
+            {
+                txtDrinkprice.Text = "$3.95";
+                lblDrinkselection.Text = "Jumex";
+            }
+        }
+    }
+}
